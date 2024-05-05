@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Engineer-Purity/Phase-2-Code-Challenge/static/css/main.f7bb4492.css",
+    "main.js": "/Engineer-Purity/Phase-2-Code-Challenge/static/js/main.87f9a773.js",
+    "index.html": "/Engineer-Purity/Phase-2-Code-Challenge/index.html",
+    "main.f7bb4492.css.map": "/Engineer-Purity/Phase-2-Code-Challenge/static/css/main.f7bb4492.css.map",
+    "main.87f9a773.js.map": "/Engineer-Purity/Phase-2-Code-Challenge/static/js/main.87f9a773.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7bb4492.css",
+    "static/js/main.87f9a773.js"
+  ]
+}
