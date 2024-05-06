@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/Engineer-Purity/Phase-2-Code-Challenge",
   "name": "phase-2-code-challenge",
   "version": "0.1.0",
   "private": true,
@@ -12,10 +13,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=8000 react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "json-server --watch db.json -p 8002"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +37,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1" ,
+    "json-server": "^0.15.1",
+    "webpack-cli": "^4.10.0"
   }
 }
